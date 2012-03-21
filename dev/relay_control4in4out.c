@@ -102,18 +102,6 @@ THREAD(relay_control_thread, arg)
 	for(;;) {
 		relay_dcb.input[0] = lunch_in_lunch_out(io_out[0]);
 		NutSleep(10);
-		    if(switch_signal_hold_time[0] > 0) {
-	             --switch_signal_hold_time[0];
-	        }
-	        if(switch_signal_hold_time[0] == 0) {
-	            io_out[0] &= ~code_msk[0];
-	        }
-		    if(switch_signal_hold_time[2] > 0) {
-	             --switch_signal_hold_time[2];
-	        }
-	        if(switch_signal_hold_time[2] == 0) {
-	            io_out[0] &= ~code_msk[2];
-	        }
 	}
 }
 
