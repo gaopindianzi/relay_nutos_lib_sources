@@ -1,0 +1,8 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_nut_arch_m68k.html" title="Freescale CISC Processor." alt="" coords="176,5,229,30"/>
+<area shape="rect" id="node2" href="$group__xg_nut_arch_unix.html" title="Running Nut/OS Apps on a UNIX machine." alt="" coords="147,54,258,79"/>
+<area shape="rect" id="node3" href="$group__xg_nut_arch_arm.html" title="32 Bit RISC processor." alt="" coords="179,103,226,129"/>
+<area shape="rect" id="node4" href="$group__xg_nut_arch_avr.html" title="8 Bit RISC processor." alt="" coords="180,153,225,178"/>
+<area shape="rect" id="node5" href="$group__xg_nut_arch_h8300h.html" title="Renesas 16 Bit CPU." alt="" coords="167,202,238,227"/>
+<area shape="rect" id="node6" href="$group__xg_nut_arch_avr32.html" title="32 Bit RISC processor." alt="" coords="173,251,232,277"/>
+</map>

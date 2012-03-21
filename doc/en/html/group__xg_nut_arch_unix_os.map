@@ -1,0 +1,5 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_nut_arch_unix.html" title="Running Nut/OS Apps on a UNIX machine." alt="" coords="6,30,117,55"/>
+<area shape="rect" id="node3" href="$group__xg_nut_arch_unix_os_context.html" title="Context Switching for the UNIX emulator." alt="" coords="323,5,442,30"/>
+<area shape="rect" id="node4" href="$group__xg_nut_arch_unix_os_timer.html" title="Nut/OS System Timer." alt="" coords="333,54,432,79"/>
+</map>

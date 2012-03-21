@@ -1,0 +1,6 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node2" href="$group__xg_nic_rtl.html" title="10 MBit NE2000 compatible controller." alt="" coords="272,5,405,30"/>
+<area shape="rect" id="node3" href="$group__xg_nic_cs8900.html" title="10 MBit Ethernet controller." alt="" coords="281,54,396,79"/>
+<area shape="rect" id="node5" href="$group__xg_nic_lanc111.html" title="10/100 MBit Ethernet controller." alt="" coords="275,103,402,129"/>
+<area shape="rect" id="node4" href="$group__xg_nut_arch_avr_dev.html" title="Hardware dependant device driver code." alt="" coords="5,54,107,79"/>
+</map>

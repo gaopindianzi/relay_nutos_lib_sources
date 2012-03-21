@@ -1,0 +1,6 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_nut_arch_arm.html" title="32 Bit RISC processor." alt="" coords="6,54,53,79"/>
+<area shape="rect" id="node2" href="$group__xg_nut_arch_arm_os_context.html" title="Context Switching for GNUARM." alt="" coords="265,5,383,30"/>
+<area shape="rect" id="node4" href="$group__xg_nut_arch_arm_os_timer_gba.html" title="Nut/OS System Timer implemented on the GBA." alt="" coords="261,54,387,79"/>
+<area shape="rect" id="node5" href="$group__xg_nut_arch_arm_os_timer_at91.html" title="Nut/OS System Timer implemented on the AT91." alt="" coords="259,103,389,129"/>
+</map>

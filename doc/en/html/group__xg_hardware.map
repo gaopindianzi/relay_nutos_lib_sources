@@ -1,0 +1,6 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_driver.html" title="Input and output device functions." alt="" coords="6,54,125,79"/>
+<area shape="rect" id="node2" href="$group__xg_ethernut_cfg.html" title="Ethernut internal I/O port usage." alt="" coords="340,5,465,30"/>
+<area shape="rect" id="node3" href="$group__xg_modem_cfg.html" title="Modem hardware dependencies." alt="" coords="348,54,457,79"/>
+<area shape="rect" id="node5" href="$group__xg_medianut_cfg.html" title="Ports used by the Medianut MP3 Add&#45;On." alt="" coords="337,103,469,129"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_uart_avr.html" title="Device driver for ATmega On&#45;Chip UART." alt="" coords="266,5,361,30"/>
+<area shape="rect" id="node2" href="$group__xg_dev_debug_avr.html" title="Debug output driver for ATmega On&#45;Chip UART." alt="" coords="264,54,363,79"/>
+<area shape="rect" id="node3" href="$group__xg_nut_arch_avr_dev.html" title="Hardware dependant device driver code." alt="" coords="5,129,107,154"/>
+<area shape="rect" id="node4" href="$group__xg_usart_avr.html" title="AVR USART hardware dependant implementation." alt="" coords="259,103,368,129"/>
+<area shape="rect" id="node5" href="$group__xg_ahdlc_avr.html" title="AHDLC Driver." alt="" coords="282,153,345,178"/>
+<area shape="rect" id="node7" href="$group__xg_nut_arch_avr_ace.html" title="ACE driver." alt="" coords="273,202,354,227"/>
+<area shape="rect" id="node8" href="$group__xg_ace_driver.html" title="TLC16C550 UART driver." alt="" coords="269,251,358,277"/>
+</map>

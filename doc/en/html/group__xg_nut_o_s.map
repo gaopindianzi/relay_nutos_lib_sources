@@ -1,0 +1,12 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_timer.html" title="Asynchronous timer support." alt="" coords="143,5,273,30"/>
+<area shape="rect" id="node2" href="$group__xg_conf_os.html" title="Nut/OS configuration structure." alt="" coords="138,54,278,79"/>
+<area shape="rect" id="node3" href="$group__xg_interrupt.html" title="Interrupt support." alt="" coords="137,103,279,129"/>
+<area shape="rect" id="node4" href="$group__xg_app_sugar.html" title="In order to keep the kernel clean and small, it uses very basic functions only:" alt="" coords="142,153,274,178"/>
+<area shape="rect" id="node5" href="$group__xg_heap.html" title="Dynamic memory management." alt="" coords="138,202,278,227"/>
+<area shape="rect" id="node6" href="$group__xg_nut_version.html" title="Nut/OS version number." alt="" coords="143,251,273,277"/>
+<area shape="rect" id="node8" href="$group__xg_event.html" title="Thread synchronization support." alt="" coords="145,301,271,326"/>
+<area shape="rect" id="node9" href="$group__xg_nut_init.html" title="Nut/OS initialization." alt="" coords="143,350,273,375"/>
+<area shape="rect" id="node10" href="$group__xg_device.html" title="Device driver support." alt="" coords="141,399,275,425"/>
+<area shape="rect" id="node11" href="$group__xg_thread.html" title="Cooperative multi&#45;threading support." alt="" coords="140,449,276,474"/>
+</map>

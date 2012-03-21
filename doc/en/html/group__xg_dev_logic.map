@@ -1,0 +1,5 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_driver.html" title="Input and output device functions." alt="" coords="6,30,125,55"/>
+<area shape="rect" id="node2" href="$group__xg_npl_mmc.html" title="Routines for using the SPI interface of the Ethernut CPLD." alt="" coords="364,5,521,30"/>
+<area shape="rect" id="node4" href="$group__xg_npl.html" title="Routines for using the Ethernut CPLD." alt="" coords="363,54,523,79"/>
+</map>

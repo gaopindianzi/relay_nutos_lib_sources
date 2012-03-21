@@ -1,0 +1,6 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_nut_arch_h8300h_dev_debug.html" title="Debug output drivers." alt="" coords="277,5,336,30"/>
+<area shape="rect" id="node2" href="$group__xg_uart_h8.html" title="TODO." alt="" coords="270,54,343,79"/>
+<area shape="rect" id="node4" href="$group__xg_uart_dev.html" title="TODO." alt="" coords="259,103,354,129"/>
+<area shape="rect" id="node5" href="$group__xg_nut_arch_h8300h_dev.html" title="Hardware dependant device driver code." alt="" coords="5,54,107,79"/>
+</map>

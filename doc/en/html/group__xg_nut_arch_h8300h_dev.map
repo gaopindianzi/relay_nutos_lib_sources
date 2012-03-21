@@ -1,0 +1,5 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_nut_arch_h8300h.html" title="Renesas 16 Bit CPU." alt="" coords="6,30,77,55"/>
+<area shape="rect" id="node2" href="$group__xg_nut_arch_h8300h_dev_serial.html" title="ARM drivers for serial communication." alt="" coords="282,5,337,30"/>
+<area shape="rect" id="node3" href="$group__xg_nut_arch_h8300h_dev_ethernet.html" title="Ethernet controller drivers." alt="" coords="275,54,343,79"/>
+</map>

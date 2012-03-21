@@ -1,0 +1,39 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_emac_sam7x.html" title="SAM7X EMAC registers." alt="" coords="292,5,388,30"/>
+<area shape="rect" id="node2" href="$group__xg_at91_efc.html" title="Embedded flash controller registers." alt="" coords="253,54,427,79"/>
+<area shape="rect" id="node3" href="$group__xg_at91_mci.html" title="Multimedia card interface registers." alt="" coords="247,103,433,129"/>
+<area shape="rect" id="node4" href="$group__xg_nut_arch_arm_at91_pio.html" title="Parallel I/O controller registers." alt="" coords="299,153,381,178"/>
+<area shape="rect" id="node5" href="$group__xg_nut_arch_arm_at91_sam9260.html" title="Register definitions." alt="" coords="289,202,391,227"/>
+<area shape="rect" id="node6" href="$group__xg_nut_arch_at91_dev_watch_dog.html" title="AT91 on&#45;chip watchdog timer." alt="" coords="273,251,407,277"/>
+<area shape="rect" id="node7" href="$group__xg_nut_arch_arm.html" title="32 Bit RISC processor." alt="" coords="6,869,53,894"/>
+<area shape="rect" id="node8" href="$group__xg_nut_arch_arm_at91_ssc.html" title="Serial synchronous controller registers." alt="" coords="247,301,433,326"/>
+<area shape="rect" id="node9" href="$group__xg_nut_arch_arm_at91_spi.html" title="Serial peripheral interface registers." alt="" coords="258,350,422,375"/>
+<area shape="rect" id="node11" href="$group__xg_nut_arch_arm_at91_sam7x.html" title="Register definitions." alt="" coords="296,399,384,425"/>
+<area shape="rect" id="node12" href="$group__xg_nut_arch_arm_at91_emac.html" title="Ethernet MAC module registers." alt="" coords="291,449,389,474"/>
+<area shape="rect" id="node13" href="$group__xg_nut_arch_arm_at91_sam9x.html" title="Register definitions." alt="" coords="292,498,388,523"/>
+<area shape="rect" id="node14" href="$group__xg_nut_arch_arm_at91_dbgu.html" title="Debug unit registers." alt="" coords="298,547,382,573"/>
+<area shape="rect" id="node15" href="$group__xg_nut_arch_arm_at91_wdt.html" title="Watchdog timer registers." alt="" coords="257,597,423,622"/>
+<area shape="rect" id="node16" href="$group__xg_nut_arch_arm_at91_matrix.html" title="Bus matrix registers." alt="" coords="301,646,379,671"/>
+<area shape="rect" id="node17" href="$group__xg_dm9161a_regs.html" title="Davicom DM9161A registers." alt="" coords="277,695,403,721"/>
+<area shape="rect" id="node18" href="$group__xg_nut_arch_arm_at91_ccfg.html" title="Chip configuration register." alt="" coords="277,745,403,770"/>
+<area shape="rect" id="node19" href="$group__xg_nut_arch_arm_at91_sam7se.html" title="Register definitions." alt="" coords="291,794,389,819"/>
+<area shape="rect" id="node20" href="$group__xg_nut_arch_arm_at91_pmc.html" title="Power management controller registers." alt="" coords="245,843,435,869"/>
+<area shape="rect" id="node21" href="$group__xg_nut_arch_arm_at91_pit.html" title="Periodic interval timer registers." alt="" coords="268,893,412,918"/>
+<area shape="rect" id="node22" href="$group__xg_nut_arch_arm_at91x40.html" title="Register definitions." alt="" coords="305,942,375,967"/>
+<area shape="rect" id="node23" href="$group__xg_nut_arch_arm_at91_sdramc.html" title="SDRAM controller registers." alt="" coords="279,991,401,1017"/>
+<area shape="rect" id="node24" href="$group__xg_at91_spi_mmc.html" title="SPI mode MMC interface registers." alt="" coords="263,1041,417,1066"/>
+<area shape="rect" id="node25" href="$group__xg_nut_arch_arm_at91_rstc.html" title="Reset controller registers." alt="" coords="284,1090,396,1115"/>
+<area shape="rect" id="node26" href="$group__xg_nut_arch_arm_at91_pwmc.html" title="PWM controller registers." alt="" coords="287,1139,393,1165"/>
+<area shape="rect" id="node27" href="$group__xg_nut_arch_arm_at91_aic.html" title="Advanced interrupt controller registers." alt="" coords="265,1189,415,1214"/>
+<area shape="rect" id="node28" href="$group__xg_nut_arch_arm_at91_smc.html" title="Static memory controller registers." alt="" coords="263,1238,417,1263"/>
+<area shape="rect" id="node29" href="$group__xg_nut_arch_arm_at91_adc.html" title="A/D Converter." alt="" coords="317,1287,363,1313"/>
+<area shape="rect" id="node30" href="$group__xg_nut_arch_arm_at91_ebi.html" title="External bus interface registers." alt="" coords="293,1337,387,1362"/>
+<area shape="rect" id="node31" href="$group__xg_nut_arch_arm_at91_twi.html" title="Two wire interface." alt="" coords="263,1386,417,1411"/>
+<area shape="rect" id="node32" href="$group__xg_nut_arch_arm_at91_ps.html" title="Power saving registers." alt="" coords="291,1435,389,1461"/>
+<area shape="rect" id="node33" href="$group__xg_nut_arch_arm_at91_udp.html" title="Universal serial bus device registers." alt="" coords="284,1485,396,1510"/>
+<area shape="rect" id="node34" href="$group__xg_nut_arch_arm_at91_mci.html" title="Multimedia card registers." alt="" coords="284,1534,396,1559"/>
+<area shape="rect" id="node35" href="$group__xg_nut_arch_arm_at91_sf.html" title="Special function registers." alt="" coords="283,1583,397,1609"/>
+<area shape="rect" id="node36" href="$group__xg_nut_arch_arm_at91_tc.html" title="Timer / Counter registers." alt="" coords="289,1633,391,1658"/>
+<area shape="rect" id="node37" href="$group__xg_nut_arch_arm_at91_wd.html" title="Watchdog timer registers." alt="" coords="273,1682,407,1707"/>
+<area shape="rect" id="node38" href="$group__xg_nut_arch_arm_at91_us.html" title="Universal synchronous / asynchronous receiver / transmitter registers." alt="" coords="309,1731,371,1757"/>
+</map>

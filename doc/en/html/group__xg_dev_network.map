@@ -1,0 +1,7 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_nic_lan91.html" title="100 MBit Ethernet controller." alt="" coords="352,5,448,30"/>
+<area shape="rect" id="node2" href="$group__xg_driver.html" title="Input and output device functions." alt="" coords="6,79,125,105"/>
+<area shape="rect" id="node4" href="$group__xg_null_ether.html" title="Null Driver." alt="" coords="336,54,464,79"/>
+<area shape="rect" id="node5" href="$group__xgnetbuf.html" title="Network buffer support." alt="" coords="349,103,451,129"/>
+<area shape="rect" id="node6" href="$group__xg_nic_dm9000e.html" title="100 MBit Ethernet controller." alt="" coords="337,153,463,178"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_crt_stdio.html" title="Standard stream interface to Nut/OS devices." alt="" coords="213,5,304,30"/>
+<area shape="rect" id="node2" href="$group__xg_crt_misc.html" title="Complementary runtime support." alt="" coords="179,54,338,79"/>
+<area shape="rect" id="node3" href="$group__xg_crt_std_lib.html" title="C Standard Library." alt="" coords="213,103,305,129"/>
+<area shape="rect" id="node5" href="$group__xg_crt_time.html" title="Implements some standard C time functions." alt="" coords="179,153,338,178"/>
+<area shape="rect" id="node6" href="$group__xg_crt_string.html" title="C Standard String Library." alt="" coords="228,202,289,227"/>
+<area shape="rect" id="node7" href="$group__xg_crt_lowio.html" title="Low level input and output operations." alt="" coords="211,251,306,277"/>
+</map>

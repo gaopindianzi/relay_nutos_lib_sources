@@ -1,0 +1,9 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_nut_arch_arm_init.html" title="Starting Nut/OS." alt="" coords="285,5,371,30"/>
+<area shape="rect" id="node3" href="$group__xg_nut_arch_arm_boot.html" title="Loading the code." alt="" coords="305,54,351,79"/>
+<area shape="rect" id="node4" href="$group__xg_nut_arch_arm_at91.html" title="AT91 peripheral registers." alt="" coords="280,103,376,129"/>
+<area shape="rect" id="node5" href="$group__xg_nut_arch_arm_os.html" title="Hardware dependant functions used by Nut/OS." alt="" coords="273,153,383,178"/>
+<area shape="rect" id="node7" href="$group__xg_nut_arch_arm_gba.html" title="Nintendo Gameboy Advance." alt="" coords="243,202,413,227"/>
+<area shape="rect" id="node8" href="$group__xg_nut_arch_arm_dev.html" title="Hardware dependant device driver code." alt="" coords="277,251,379,277"/>
+<area shape="rect" id="node6" href="$group__xg_nut_arch.html" title="Target devices." alt="" coords="5,129,99,154"/>
+</map>

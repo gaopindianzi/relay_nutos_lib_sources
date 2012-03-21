@@ -1,0 +1,5 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_udp_socket.html" title="Application interface for UDP sockets." alt="" coords="267,5,362,30"/>
+<area shape="rect" id="node2" href="$group__xg_nut_net.html" title="Nut/Net TCP/IP Stack." alt="" coords="6,30,90,55"/>
+<area shape="rect" id="node3" href="$group__xg_tcp_socket.html" title="Application interface for TCP sockets." alt="" coords="268,54,361,79"/>
+</map>

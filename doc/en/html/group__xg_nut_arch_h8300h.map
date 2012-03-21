@@ -1,0 +1,8 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_nut_arch_h8300h_os.html" title="Hardware dependant functions used by Nut/OS." alt="" coords="267,5,376,30"/>
+<area shape="rect" id="node2" href="$group__xg_nut_arch_h8300h_boot.html" title="Loading the code." alt="" coords="298,54,345,79"/>
+<area shape="rect" id="node4" href="$group__xg_r_port_cfg.html" title="RPort hardware specification." alt="" coords="295,103,348,129"/>
+<area shape="rect" id="node6" href="$group__xg_nut_arch_h8300h_dev.html" title="Hardware dependant device driver code." alt="" coords="271,153,372,178"/>
+<area shape="rect" id="node7" href="$group__xg_nut_arch_h8300h_init.html" title="Starting Nut/OS." alt="" coords="278,202,365,227"/>
+<area shape="rect" id="node5" href="$group__xg_nut_arch.html" title="Target devices." alt="" coords="5,103,99,129"/>
+</map>

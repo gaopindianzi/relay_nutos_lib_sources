@@ -1,0 +1,6 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_driver.html" title="Input and output device functions." alt="" coords="6,54,125,79"/>
+<area shape="rect" id="node2" href="$group__xg_dev_keys.html" title="Button handler." alt="" coords="354,5,403,30"/>
+<area shape="rect" id="node3" href="$group__xg_port_translate.html" title="Platform independent GPIO." alt="" coords="331,54,426,79"/>
+<area shape="rect" id="node4" href="$group__xg_dev_l_e_d.html" title="LED handler." alt="" coords="355,103,402,129"/>
+</map>

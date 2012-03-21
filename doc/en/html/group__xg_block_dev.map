@@ -1,0 +1,7 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_driver.html" title="Input and output device functions." alt="" coords="6,79,125,105"/>
+<area shape="rect" id="node2" href="$group__xg_mm_card.html" title="Block device driver for MM/SD Cards." alt="" coords="340,5,487,30"/>
+<area shape="rect" id="node4" href="$group__xg_sbi_mmc.html" title="Bit banging SPI for MMC." alt="" coords="335,54,492,79"/>
+<area shape="rect" id="node5" href="$group__xg_sbi_mm_card.html" title="Block device driver for MM/SD Cards." alt="" coords="338,103,489,129"/>
+<area shape="rect" id="node6" href="$group__xg_npl_mem_card_support.html" title="Support routines for MM/SD Cards." alt="" coords="321,153,506,178"/>
+</map>

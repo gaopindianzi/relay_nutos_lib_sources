@@ -1,0 +1,5 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_nut_arch_arm_dev_irq_at91.html" title="Interrupt handler for the AT91." alt="" coords="278,5,383,30"/>
+<area shape="rect" id="node3" href="$group__xg_nut_arch_arm_dev_irq_gba.html" title="Interrupt handler for the GameBoy Advance." alt="" coords="280,54,381,79"/>
+<area shape="rect" id="node4" href="$group__xg_nut_arch_arm_dev.html" title="Hardware dependant device driver code." alt="" coords="5,30,107,55"/>
+</map>

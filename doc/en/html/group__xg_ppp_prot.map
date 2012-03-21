@@ -1,0 +1,7 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node2" href="$group__xg_i_p_c_p.html" title="IP control protocol." alt="" coords="224,5,275,30"/>
+<area shape="rect" id="node3" href="$group__xg_p_a_p.html" title="Password authentication protocol." alt="" coords="227,54,272,79"/>
+<area shape="rect" id="node4" href="$group__xg_l_c_p.html" title="Link control protocol." alt="" coords="226,103,273,129"/>
+<area shape="rect" id="node5" href="$group__xg_p_p_p.html" title="PPP Driver." alt="" coords="226,153,273,178"/>
+<area shape="rect" id="node6" href="$group__xg_protos.html" title="Protocols" alt="" coords="5,79,80,105"/>
+</map>

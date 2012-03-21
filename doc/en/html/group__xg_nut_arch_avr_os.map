@@ -1,0 +1,5 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_nut_arch_avr_os_context_icc.html" title="Thread context switching for ImageCraft ICCAVR." alt="" coords="259,5,386,30"/>
+<area shape="rect" id="node2" href="$group__xg_nut_arch_avr.html" title="8 Bit RISC processor." alt="" coords="5,30,51,55"/>
+<area shape="rect" id="node4" href="$group__xg_nut_arch_avr_os_context_gcc.html" title="Thread context switching for avr&#45;gcc." alt="" coords="257,54,389,79"/>
+</map>

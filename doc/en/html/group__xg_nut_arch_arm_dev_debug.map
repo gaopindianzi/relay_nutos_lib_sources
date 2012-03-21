@@ -1,0 +1,5 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_dev_debug_gba.html" title="Debug output driver for GBA LCD Screen." alt="" coords="264,5,389,30"/>
+<area shape="rect" id="node3" href="$group__xg_dev_debug_at91.html" title="Debug output driver for AT91 On&#45;Chip UART." alt="" coords="261,54,392,79"/>
+<area shape="rect" id="node4" href="$group__xg_nut_arch_arm_dev.html" title="Hardware dependant device driver code." alt="" coords="5,30,107,55"/>
+</map>

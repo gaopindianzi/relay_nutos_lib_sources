@@ -1,0 +1,485 @@
+<toc label="Nut/OS" topic="index.html">
+  <topic label="Nut/OS" href="index.html"/>
+  <topic label="Related Pages" href="pages.html">
+    <topic label="Copyright Statement" href="copyleft.html">
+    </topic>
+    <topic label="Todo List" href="todo.html">
+    </topic>
+  </topic>
+  <topic label="Modules" href="modules.html">
+    <topic label="Nut/OS API" href="group__xg_nut_o_s.html">
+      <topic label="System Initialization" href="group__xg_nut_init.html">
+      </topic>
+      <topic label="System Configuration" href="group__xg_conf_os.html">
+      </topic>
+      <topic label="Thread Management" href="group__xg_thread.html">
+      </topic>
+      <topic label="Event Management" href="group__xg_event.html">
+      </topic>
+      <topic label="Timer Management" href="group__xg_timer.html">
+      </topic>
+      <topic label="Memory Management" href="group__xg_heap.html">
+      </topic>
+      <topic label="Device Management" href="group__xg_device.html">
+      </topic>
+      <topic label="Interrupt Management" href="group__xg_interrupt.html">
+      </topic>
+      <topic label="Version Information" href="group__xg_nut_version.html">
+      </topic>
+      <topic label="Application Candies" href="group__xg_app_sugar.html">
+        <topic label="Message Queues" href="group__xg_message_que.html">
+        </topic>
+        <topic label="Recursive Mutex" href="group__xg_mutex.html">
+        </topic>
+        <topic label="Semaphore" href="group__xg_semaphore.html">
+        </topic>
+        <topic label="Condition Variables" href="group__xg_condition_variables.html">
+        </topic>
+        <topic label="Banked Memory" href="group__xg_bank_mem.html">
+        </topic>
+      </topic>
+    </topic>
+    <topic label="Nut/Net API" href="group__xg_nut_net.html">
+      <topic label="Network Configuration" href="group__xg_conf_net.html">
+      </topic>
+      <topic label="Socket API" href="group__xg_socket.html">
+        <topic label="TCP Sockets" href="group__xg_tcp_socket.html">
+        </topic>
+        <topic label="UDP Sockets" href="group__xg_udp_socket.html">
+        </topic>
+      </topic>
+      <topic label="Protocols" href="group__xg_protos.html">
+        <topic label="Base Protocols" href="group__xg_base_pro.html">
+          <topic label="TCP" href="group__xg_t_c_p.html">
+          </topic>
+          <topic label="UDP" href="group__xg_u_d_p.html">
+          </topic>
+          <topic label="IP" href="group__xg_i_p.html">
+          </topic>
+          <topic label="ICMP" href="group__xg_i_c_m_p.html">
+          </topic>
+          <topic label="IGMP" href="group__xg_i_g_m_p.html">
+          </topic>
+          <topic label="ARP" href="group__xg_a_r_p.html">
+          </topic>
+          <topic label="Ethernet" href="group__xg_ethernet.html">
+          </topic>
+        </topic>
+        <topic label="User Protocols" href="group__xg_user_pro.html">
+          <topic label="DHCP" href="group__xg_d_h_c_p_c.html">
+          </topic>
+          <topic label="Discover" href="group__xg_discover.html">
+          </topic>
+          <topic label="FTP" href="group__xg_f_t_p_d.html">
+          </topic>
+          <topic label="HTTP" href="group__xg_h_t_t_p_d.html">
+          </topic>
+          <topic label="DNS" href="group__xg_d_n_s.html">
+          </topic>
+          <topic label="SNMP" href="group__xg_s_n_m_p.html">
+          </topic>
+          <topic label="SNTP" href="group__xg_sntp.html">
+          </topic>
+          <topic label="syslog" href="group__xg_syslog.html">
+          </topic>
+          <topic label="WINS" href="group__xg_wins.html">
+          </topic>
+          <topic label="XML Parser" href="group__xg_u_x_m_l.html">
+          </topic>
+        </topic>
+        <topic label="PPP" href="group__xg_ppp_prot.html">
+          <topic label="LCP" href="group__xg_l_c_p.html">
+          </topic>
+          <topic label="PAP" href="group__xg_p_a_p.html">
+          </topic>
+          <topic label="IPCP" href="group__xg_i_p_c_p.html">
+          </topic>
+          <topic label="PPP" href="group__xg_p_p_p.html">
+          </topic>
+        </topic>
+      </topic>
+    </topic>
+    <topic label="File System API." href="group__xg_file_system.html">
+      <topic label="Special Functions." href="group__xg_f_s.html">
+        <topic label="Reading Directories" href="group__xg_f_s_dir.html">
+        </topic>
+      </topic>
+      <topic label="PHAT File System" href="group__xg_phat_fs.html">
+        <topic label="Volume Support" href="group__xg_phat_vol.html">
+        </topic>
+        <topic label="Directory Support" href="group__xg_phat_dir.html">
+        </topic>
+        <topic label="PHAT12 Support" href="group__xg_phat12.html">
+        </topic>
+        <topic label="PHAT16 Support" href="group__xg_phat16.html">
+        </topic>
+        <topic label="PHAT32 Support" href="group__xg_phat32.html">
+        </topic>
+        <topic label="PHAT Block I/O" href="group__xg_phat_io.html">
+        </topic>
+        <topic label="PHAT Utilities" href="group__xg_phat_util.html">
+        </topic>
+        <topic label="PHAT Debugging Support" href="group__xg_phat_dbg.html">
+        </topic>
+      </topic>
+      <topic label="Peanut File System" href="group__xg_p_nut.html">
+      </topic>
+      <topic label="Micro-ROM File System" href="group__xgurom.html">
+      </topic>
+      <topic label="Micro Flash File System" href="group__xg_u_f_l_a_s_h.html">
+      </topic>
+      <topic label="Raw File System" href="group__xg_raw_fs.html">
+      </topic>
+      <topic label="DOS Partitions" href="group__xg_partition.html">
+      </topic>
+    </topic>
+    <topic label="C Runtime Library." href="group__xg_crt.html">
+      <topic label="Standard I/O" href="group__xg_crt_stdio.html">
+      </topic>
+      <topic label="Low Level I/O" href="group__xg_crt_lowio.html">
+      </topic>
+      <topic label="Time handling Functions" href="group__xg_crt_time.html">
+      </topic>
+      <topic label="Miscellaneous Functions" href="group__xg_crt_misc.html">
+      </topic>
+      <topic label="Standard Lib" href="group__xg_crt_std_lib.html">
+      </topic>
+      <topic label="Strings" href="group__xg_crt_string.html">
+      </topic>
+    </topic>
+    <topic label="Gorp Library" href="group__xg_gorp.html">
+      <topic label="Edit" href="group__xg_gorp_edit.html">
+        <topic label="EdLine Editor" href="group__xg_ed_line.html">
+        </topic>
+      </topic>
+      <topic label="Encoding and Decoding" href="group__xg_gorp_codec.html">
+        <topic label="Base64 Codec" href="group__xg_base64.html">
+        </topic>
+      </topic>
+      <topic label="Hashes" href="group__xg_hashes.html">
+      </topic>
+      <topic label="Lists and Queues" href="group__xg_gorp_list.html">
+        <topic label="LiLi" href="group__xg_lili.html">
+        </topic>
+      </topic>
+    </topic>
+    <topic label="Device Driver API." href="group__xg_driver.html">
+      <topic label="Generic Character Device" href="group__xg_dev_gen_char.html">
+      </topic>
+      <topic label="USART Devices" href="group__xg_dev_serial.html">
+        <topic label="USART Driver Frame" href="group__xg_usart.html">
+          <topic label="UART I/O Control Functions" href="group__xg_u_a_r_t_i_o_c_t_l.html">
+            <topic label="UART Status" href="group__xg_u_a_r_t_status.html">
+            </topic>
+          </topic>
+        </topic>
+      </topic>
+      <topic label="Network Devices" href="group__xg_dev_network.html">
+        <topic label="Network Buffer" href="group__xgnetbuf.html">
+        </topic>
+        <topic label="Null Ethernet Driver" href="group__xg_null_ether.html">
+        </topic>
+        <topic label="Davicom DM9000E" href="group__xg_nic_dm9000e.html">
+          <topic label="DM9000E Registers" href="group__xg_dm9000e_regs.html">
+          </topic>
+        </topic>
+        <topic label="SMSC LAM91" href="group__xg_nic_lan91.html">
+        </topic>
+      </topic>
+      <topic label="Display Devices" href="group__xg_dev_display.html">
+        <topic label="Terminal Emulator." href="group__xg_terminal.html">
+        </topic>
+        <topic label="LC/VF Display Driver." href="group__xg_display.html">
+        </topic>
+        <topic label="ST7036 Display Driver." href="group__xg_s_t7036.html">
+        </topic>
+      </topic>
+      <topic label="Interrupt Management" href="group__xg_irq_reg.html">
+      </topic>
+      <topic label="CAN Devices" href="group__xg_can_dev.html">
+      </topic>
+      <topic label="IR Devices" href="group__xg_ir.html">
+      </topic>
+      <topic label="Audio Devices" href="group__xg_dev_audio.html">
+        <topic label="VLSI VS Driver" href="group__xg_vs_codec.html">
+        </topic>
+      </topic>
+      <topic label="Block Devices" href="group__xg_block_dev.html">
+        <topic label="Multimedia Card Driver" href="group__xg_mm_card.html">
+        </topic>
+        <topic label="Bit-banging MMC Driver" href="group__xg_sbi_mm_card.html">
+        </topic>
+        <topic label="NPL Multimedia Card Support" href="group__xg_npl_mem_card_support.html">
+        </topic>
+        <topic label="Low Level MMC Interface" href="group__xg_sbi_mmc.html">
+        </topic>
+      </topic>
+      <topic label="Clock Devices" href="group__xg_dev_timing.html">
+        <topic label="Cypress CY2239x" href="group__xg_cy2239x.html">
+        </topic>
+      </topic>
+      <topic label="Watchdogs" href="group__xg_watch_dog.html">
+      </topic>
+      <topic label="System Reset" href="group__xg_reset.html">
+      </topic>
+      <topic label="CPLD Based Devices" href="group__xg_dev_logic.html">
+        <topic label="Nut Programmable Logic" href="group__xg_npl.html">
+        </topic>
+        <topic label="Low Level MMC Interface" href="group__xg_npl_mmc.html">
+        </topic>
+      </topic>
+      <topic label="Non-Volatile Memory" href="group__xg_nut_nv_mem.html">
+        <topic label="AVR EEPROM" href="group__xg_arch_avr_dev_eeprom.html">
+        </topic>
+      </topic>
+      <topic label="Hardware Layout" href="group__xg_hardware.html">
+        <topic label="Ethernut Hardware" href="group__xg_ethernut_cfg.html">
+        </topic>
+        <topic label="Medianut Hardware." href="group__xg_medianut_cfg.html">
+        </topic>
+        <topic label="Modem Control." href="group__xg_modem_cfg.html">
+        </topic>
+      </topic>
+      <topic label="Generic Port I/O" href="group__xg_dev_gen_gpio.html">
+        <topic label="GPIO Macros" href="group__xg_port_translate.html">
+        </topic>
+        <topic label="Keys" href="group__xg_dev_keys.html">
+        </topic>
+        <topic label="LED" href="group__xg_dev_l_e_d.html">
+        </topic>
+      </topic>
+    </topic>
+    <topic label="Architectures" href="group__xg_nut_arch.html">
+      <topic label="AVR" href="group__xg_nut_arch_avr.html">
+        <topic label="Boot" href="group__xg_nut_arch_avr_boot.html">
+        </topic>
+        <topic label="Initialization" href="group__xg_nut_arch_avr_init.html">
+        </topic>
+        <topic label="System Support" href="group__xg_nut_arch_avr_os.html">
+          <topic label="GCC Context Switch" href="group__xg_nut_arch_avr_os_context_gcc.html">
+          </topic>
+          <topic label="ICC Context Switch" href="group__xg_nut_arch_avr_os_context_icc.html">
+          </topic>
+        </topic>
+        <topic label="Device Drivers" href="group__xg_nut_arch_avr_dev.html">
+          <topic label="Serial" href="group__xg_nut_arch_avr_dev_serial.html">
+            <topic label="ACE Driver" href="group__xg_nut_arch_avr_ace.html">
+            </topic>
+            <topic label="Debug Device" href="group__xg_dev_debug_avr.html">
+            </topic>
+            <topic label="UART Device" href="group__xg_uart_avr.html">
+            </topic>
+            <topic label="USART Devices" href="group__xg_usart_avr.html">
+            </topic>
+            <topic label="AHDLC" href="group__xg_ahdlc_avr.html">
+            </topic>
+            <topic label="TLC16C550" href="group__xg_ace_driver.html">
+            </topic>
+          </topic>
+          <topic label="Ethernet" href="group__xg_nut_arch_avr_dev_ethernet.html">
+            <topic label="Realtek RTL8019AS" href="group__xg_nic_rtl.html">
+              <topic label="Device eth0" href="group__xg_eth0_dev.html">
+              </topic>
+            </topic>
+            <topic label="SMSC LAN91C111" href="group__xg_nic_lanc111.html">
+              <topic label="LAN91C111 registers" href="group__xg_smsc_regs.html">
+              </topic>
+            </topic>
+            <topic label="Crystal CS8900A" href="group__xg_nic_cs8900.html">
+            </topic>
+          </topic>
+          <topic label="Debug" href="group__xg_nut_arch_avr_dev_debug.html">
+          </topic>
+        </topic>
+        <topic label="Special Hardware" href="group__xg_hardware_avr.html">
+          <topic label="A/D Converter" href="group__xg_avr_adc.html">
+          </topic>
+          <topic label="SJA1000" href="group__xg_can_s_j_a1000.html">
+          </topic>
+          <topic label="VLSI VS1001K" href="group__xg_vs1001.html">
+          </topic>
+          <topic label="VLSI VS10XX" href="group__xg_vs10xx.html">
+          </topic>
+          <topic label="Sony IR" href="group__xg_ir_sony.html">
+          </topic>
+          <topic label="SPI Digital I/O" href="group__xg_spi_dig_io.html">
+          </topic>
+          <topic label="SPI Flash Devices" href="group__xg_spi_flash.html">
+          </topic>
+          <topic label="Watchdog" href="group__xg_nut_arch_avr_dev_watch_dog.html">
+          </topic>
+          <topic label="AVR Target Programming" href="group__xg_avr_target.html">
+          </topic>
+        </topic>
+        <topic label="Configuration" href="group__xg_config_avr.html">
+          <topic label="Ports" href="group__xg_config_ports_avr.html">
+          </topic>
+          <topic label="MCAN Board" href="group__xg_m_can_cfg.html">
+          </topic>
+        </topic>
+      </topic>
+      <topic label="AVR32" href="group__xg_nut_arch_avr32.html">
+        <topic label="Configuration" href="group__xg_config_avr32.html">
+        </topic>
+      </topic>
+      <topic label="ARM" href="group__xg_nut_arch_arm.html">
+        <topic label="Boot" href="group__xg_nut_arch_arm_boot.html">
+        </topic>
+        <topic label="Initialization" href="group__xg_nut_arch_arm_init.html">
+        </topic>
+        <topic label="AT91 Support" href="group__xg_nut_arch_arm_at91.html">
+          <topic label="ADC" href="group__xg_nut_arch_arm_at91_adc.html">
+          </topic>
+          <topic label="AIC: Interrupt Controller" href="group__xg_nut_arch_arm_at91_aic.html">
+          </topic>
+          <topic label="Chip Configuration" href="group__xg_nut_arch_arm_at91_ccfg.html">
+          </topic>
+          <topic label="Debug Unit" href="group__xg_nut_arch_arm_at91_dbgu.html">
+          </topic>
+          <topic label="Bus Interface" href="group__xg_nut_arch_arm_at91_ebi.html">
+          </topic>
+          <topic label="Embedded Flash Controller" href="group__xg_at91_efc.html">
+          </topic>
+          <topic label="EMAC Module" href="group__xg_nut_arch_arm_at91_emac.html">
+          </topic>
+          <topic label="Bus Matrix" href="group__xg_nut_arch_arm_at91_matrix.html">
+          </topic>
+          <topic label="Multimedia Card" href="group__xg_nut_arch_arm_at91_mci.html">
+          </topic>
+          <topic label="MCI Multimedia Card Interface" href="group__xg_at91_mci.html">
+          </topic>
+          <topic label="Parallel I/O" href="group__xg_nut_arch_arm_at91_pio.html">
+          </topic>
+          <topic label="Periodic Interval Timer" href="group__xg_nut_arch_arm_at91_pit.html">
+          </topic>
+          <topic label="Power Management Controller" href="group__xg_nut_arch_arm_at91_pmc.html">
+          </topic>
+          <topic label="PWM Controller" href="group__xg_nut_arch_arm_at91_pwmc.html">
+          </topic>
+          <topic label="Power Saving" href="group__xg_nut_arch_arm_at91_ps.html">
+          </topic>
+          <topic label="AT91x40" href="group__xg_nut_arch_arm_at91x40.html">
+          </topic>
+          <topic label="AT91SAM7SE" href="group__xg_nut_arch_arm_at91_sam7se.html">
+          </topic>
+          <topic label="AT91SAM7X" href="group__xg_nut_arch_arm_at91_sam7x.html">
+          </topic>
+          <topic label="Reset Controller" href="group__xg_nut_arch_arm_at91_rstc.html">
+          </topic>
+          <topic label="AT91SAM9XE" href="group__xg_nut_arch_arm_at91_sam9x.html">
+          </topic>
+          <topic label="AT91SAM9260" href="group__xg_nut_arch_arm_at91_sam9260.html">
+          </topic>
+          <topic label="SDRAM Controller" href="group__xg_nut_arch_arm_at91_sdramc.html">
+          </topic>
+          <topic label="Special Function" href="group__xg_nut_arch_arm_at91_sf.html">
+          </topic>
+          <topic label="Static Memory Controller" href="group__xg_nut_arch_arm_at91_smc.html">
+          </topic>
+          <topic label="Serial Peripheral Interface" href="group__xg_nut_arch_arm_at91_spi.html">
+          </topic>
+          <topic label="SPI Mode MMC Interface" href="group__xg_at91_spi_mmc.html">
+          </topic>
+          <topic label="Serial Synchronous Controller" href="group__xg_nut_arch_arm_at91_ssc.html">
+          </topic>
+          <topic label="Timer/Counter" href="group__xg_nut_arch_arm_at91_tc.html">
+          </topic>
+          <topic label="AT91 Two Wire Interface" href="group__xg_nut_arch_arm_at91_twi.html">
+          </topic>
+          <topic label="USB Device Port" href="group__xg_nut_arch_arm_at91_udp.html">
+          </topic>
+          <topic label="USART" href="group__xg_nut_arch_arm_at91_us.html">
+          </topic>
+          <topic label="Watchdog Registers" href="group__xg_nut_arch_arm_at91_wd.html">
+          </topic>
+          <topic label="AT91 Watchdog Registers" href="group__xg_nut_arch_arm_at91_wdt.html">
+          </topic>
+          <topic label="Watchdog Functions" href="group__xg_nut_arch_at91_dev_watch_dog.html">
+          </topic>
+          <topic label="Davicom DM9161A" href="group__xg_dm9161a_regs.html">
+          </topic>
+          <topic label="SAM7X EMAC" href="group__xg_emac_sam7x.html">
+          </topic>
+        </topic>
+        <topic label="Gameboy Advance Support" href="group__xg_nut_arch_arm_gba.html">
+        </topic>
+        <topic label="System Support" href="group__xg_nut_arch_arm_os.html">
+          <topic label="Context Switching" href="group__xg_nut_arch_arm_os_context.html">
+          </topic>
+          <topic label="AT91 System Timer" href="group__xg_nut_arch_arm_os_timer_at91.html">
+          </topic>
+          <topic label="GBA System Timer" href="group__xg_nut_arch_arm_os_timer_gba.html">
+          </topic>
+        </topic>
+        <topic label="Device Drivers" href="group__xg_nut_arch_arm_dev.html">
+          <topic label="Interrupts" href="group__xg_nut_arch_arm_dev_irq.html">
+            <topic label="AT91 Interrupts" href="group__xg_nut_arch_arm_dev_irq_at91.html">
+            </topic>
+            <topic label="GBA Interrupts" href="group__xg_nut_arch_arm_dev_irq_gba.html">
+            </topic>
+          </topic>
+          <topic label="Serial" href="group__xg_nut_arch_arm_dev_serial.html">
+            <topic label="GBA UART" href="group__xg_uart_gba.html">
+            </topic>
+          </topic>
+          <topic label="Ethernet" href="group__xg_nut_arch_arm_dev_ethernet.html">
+            <topic label="Asix AX88796L" href="group__xg_nic_asix.html">
+            </topic>
+          </topic>
+          <topic label="Debug" href="group__xg_nut_arch_arm_dev_debug.html">
+            <topic label="AT91 Debug Device" href="group__xg_dev_debug_at91.html">
+            </topic>
+            <topic label="GBA Debug Output" href="group__xg_dev_debug_gba.html">
+            </topic>
+          </topic>
+        </topic>
+      </topic>
+      <topic label="Emulator (UNIX)" href="group__xg_nut_arch_unix.html">
+        <topic label="Initialization" href="group__xg_nut_arch_unix_init.html">
+        </topic>
+        <topic label="System Support" href="group__xg_nut_arch_unix_os.html">
+          <topic label="Context Switching" href="group__xg_nut_arch_unix_os_context.html">
+          </topic>
+          <topic label="System Timer" href="group__xg_nut_arch_unix_os_timer.html">
+          </topic>
+        </topic>
+      </topic>
+      <topic label="H8/300H" href="group__xg_nut_arch_h8300h.html">
+        <topic label="Boot" href="group__xg_nut_arch_h8300h_boot.html">
+        </topic>
+        <topic label="Initialization" href="group__xg_nut_arch_h8300h_init.html">
+        </topic>
+        <topic label="System Support" href="group__xg_nut_arch_h8300h_os.html">
+          <topic label="Context Switching" href="group__xg_nut_arch_h8300h_os_context.html">
+          </topic>
+          <topic label="System Timer" href="group__xg_nut_arch_h8300h_os_timer.html">
+          </topic>
+        </topic>
+        <topic label="Device Drivers" href="group__xg_nut_arch_h8300h_dev.html">
+          <topic label="Serial" href="group__xg_nut_arch_h8300h_dev_serial.html">
+            <topic label="H8 UART" href="group__xg_uart_h8.html">
+            </topic>
+            <topic label="H3800 UART" href="group__xg_uart_dev.html">
+            </topic>
+            <topic label="Debug" href="group__xg_nut_arch_h8300h_dev_debug.html">
+            </topic>
+          </topic>
+          <topic label="Ethernet" href="group__xg_nut_arch_h8300h_dev_ethernet.html">
+          </topic>
+        </topic>
+        <topic label="RPort" href="group__xg_r_port_cfg.html">
+        </topic>
+      </topic>
+      <topic label="M68K" href="group__xg_nut_arch_m68k.html">
+        <topic label="Boot" href="group__xg_nut_arch_m68k_boot.html">
+        </topic>
+        <topic label="Initialization" href="group__xg_nut_arch_m68k_init.html">
+        </topic>
+      </topic>
+    </topic>
+    <topic label="Contribs" href="group__xg_contrib.html">
+      <topic label="Helix" href="group__xg_helix_codec.html">
+      </topic>
+    </topic>
+  </topic>
+</toc>

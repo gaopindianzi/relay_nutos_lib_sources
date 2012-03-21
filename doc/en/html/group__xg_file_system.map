@@ -1,0 +1,9 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node2" href="$group__xg_p_nut.html" title="Volatile RAM file system." alt="" coords="177,5,305,30"/>
+<area shape="rect" id="node3" href="$group__xg_f_s.html" title="UNIX compatible file system functions." alt="" coords="180,54,303,79"/>
+<area shape="rect" id="node4" href="$group__xgurom.html" title="Very simple read&#45;only file system." alt="" coords="167,103,316,129"/>
+<area shape="rect" id="node5" href="$group__xg_raw_fs.html" title="Very simple raw file system." alt="" coords="184,153,299,178"/>
+<area shape="rect" id="node6" href="$group__xg_partition.html" title="DOS partition layout." alt="" coords="190,202,293,227"/>
+<area shape="rect" id="node7" href="$group__xg_u_f_l_a_s_h.html" title="Simple flash file system." alt="" coords="165,251,317,277"/>
+<area shape="rect" id="node8" href="$group__xg_phat_fs.html" title="FAT12/16/32 compatible file system." alt="" coords="181,301,301,326"/>
+</map>

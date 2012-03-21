@@ -1,0 +1,8 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_condition_variables.html" title="Condition variable support." alt="" coords="317,5,448,30"/>
+<area shape="rect" id="node4" href="$group__xg_message_que.html" title="Message Queue Support." alt="" coords="323,54,443,79"/>
+<area shape="rect" id="node5" href="$group__xg_semaphore.html" title="Thread synchronization support." alt="" coords="339,103,426,129"/>
+<area shape="rect" id="node6" href="$group__xg_mutex.html" title="Thread synchronization support." alt="" coords="327,153,438,178"/>
+<area shape="rect" id="node7" href="$group__xg_bank_mem.html" title="Banked RAM support." alt="" coords="327,202,438,227"/>
+<area shape="rect" id="node3" href="$group__xg_nut_o_s.html" title="Operating System API." alt="" coords="5,103,88,129"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_file_system.html" title="File System API." alt="" coords="6,178,117,203"/>
+<area shape="rect" id="node2" href="$group__xg_phat32.html" title="PHAT32 specific routines." alt="" coords="358,5,471,30"/>
+<area shape="rect" id="node3" href="$group__xg_phat12.html" title="PHAT12 specific routines." alt="" coords="358,54,471,79"/>
+<area shape="rect" id="node4" href="$group__xg_phat16.html" title="PHAT16 specific routines." alt="" coords="358,103,471,129"/>
+<area shape="rect" id="node5" href="$group__xg_phat_dbg.html" title="Listing various PHAT structures." alt="" coords="333,153,496,178"/>
+<area shape="rect" id="node6" href="$group__xg_phat_dir.html" title="Routines for reading and writing directories." alt="" coords="357,202,473,227"/>
+<area shape="rect" id="node7" href="$group__xg_phat_io.html" title="Reading and writing data blocks." alt="" coords="363,251,467,277"/>
+<area shape="rect" id="node9" href="$group__xg_phat_util.html" title="General utility routines used by the PHAT file system." alt="" coords="366,301,463,326"/>
+<area shape="rect" id="node10" href="$group__xg_phat_vol.html" title="Dealing with volumes." alt="" coords="359,350,470,375"/>
+</map>

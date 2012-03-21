@@ -1,0 +1,5 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_config_ports_avr.html" title="Assigned port bits." alt="" coords="264,5,315,30"/>
+<area shape="rect" id="node2" href="$group__xg_nut_arch_avr.html" title="8 Bit RISC processor." alt="" coords="5,30,51,55"/>
+<area shape="rect" id="node3" href="$group__xg_m_can_cfg.html" title="Microcontroller Board with CAN Bus." alt="" coords="243,54,335,79"/>
+</map>

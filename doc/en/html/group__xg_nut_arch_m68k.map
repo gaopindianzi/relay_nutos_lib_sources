@@ -1,0 +1,5 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_nut_arch_m68k_init.html" title="Starting Nut/OS." alt="" coords="249,5,335,30"/>
+<area shape="rect" id="node3" href="$group__xg_nut_arch_m68k_boot.html" title="Loading the code." alt="" coords="269,54,315,79"/>
+<area shape="rect" id="node4" href="$group__xg_nut_arch.html" title="Target devices." alt="" coords="5,30,99,55"/>
+</map>

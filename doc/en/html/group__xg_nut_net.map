@@ -1,0 +1,5 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__xg_conf_net.html" title="Nut/Nut configuration structure." alt="" coords="139,5,283,30"/>
+<area shape="rect" id="node3" href="$group__xg_socket.html" title="Nut/Net Socket Interface." alt="" coords="171,54,251,79"/>
+<area shape="rect" id="node4" href="$group__xg_protos.html" title="Protocols" alt="" coords="173,103,248,129"/>
+</map>

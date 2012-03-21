@@ -1,0 +1,6 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node2" href="$group__xg_gorp_edit.html" title="Editor Functions." alt="" coords="200,5,243,30"/>
+<area shape="rect" id="node3" href="$group__xg_gorp_codec.html" title="Codec Functions." alt="" coords="144,54,299,79"/>
+<area shape="rect" id="node4" href="$group__xg_hashes.html" title="MD5 Digest Functions." alt="" coords="188,103,255,129"/>
+<area shape="rect" id="node5" href="$group__xg_gorp_list.html" title="Base64 Encoder and Decoder." alt="" coords="161,153,281,178"/>
+</map>
