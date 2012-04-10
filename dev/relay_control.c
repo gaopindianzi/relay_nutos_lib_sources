@@ -29,6 +29,10 @@
 #include "relay_control_none.c"
 #endif
 
+#ifdef RELAY_PLATFORM_16CHOUT_EXT16CH
+#include "relay_control16_out_extend16ch.c";
+#endif
+
 NUTDEVICE devRelayInputOutput = {
     0,                          /*!< Pointer to next device. */
     {'r', 'e', 'l', 'a', 'y', 'c', 't', 'l', 0,},      /*!< Unique device name. */
