@@ -230,6 +230,8 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 			unsigned char i;
 			io_out[0] = pbuf[0];
 			io_out[1] = pbuf[1];
+			io_out[2] = pbuf[2];
+			io_out[3] = pbuf[3];
 			for(i=0;i<8;i++) {
 				unsigned char msk = code_msk[i];
 				if(pbuf[0]&msk) {
@@ -242,6 +244,18 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 					switch_signal_hold_time[i+8] = 80;
 				}
 			}
+			for(i=0;i<8;i++) {
+				unsigned char msk = code_msk[i];
+				if(pbuf[2]&msk) {
+					switch_signal_hold_time[i+16] = 80;
+				}
+			}
+			for(i=0;i<8;i++) {
+				unsigned char msk = code_msk[i];
+				if(pbuf[3]&msk) {
+					switch_signal_hold_time[i+24] = 80;
+				}
+			}
 			rc = 0;
 		}
 		break;
@@ -249,6 +263,8 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 		{
 			pbuf[0] = io_out[0];
 			pbuf[1] = io_out[1];
+			pbuf[2] = io_out[2];
+			pbuf[3] = io_out[3];
 			rc = 0;
 		}
 		break;
@@ -262,7 +278,7 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 	case GET_OUT_NUM:
 		{
 			uint32_t * pdat = (uint32_t *)pbuf;
-			*pdat = 16;
+			*pdat = 32;
 			rc = 0;
 		}
 		break;
@@ -278,6 +294,8 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 			unsigned char i;
 			io_out[0] |= pbuf[0];
 			io_out[1] |= pbuf[1];
+			io_out[2] |= pbuf[2];
+			io_out[3] |= pbuf[3];
 			for(i=0;i<8;i++) {
 				unsigned char msk = code_msk[i];
 				if(pbuf[0]&msk) {
@@ -290,6 +308,18 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 					switch_signal_hold_time[i+8] = 80;
 				}
 			}
+			for(i=0;i<8;i++) {
+				unsigned char msk = code_msk[i];
+				if(pbuf[2]&msk) {
+					switch_signal_hold_time[i+16] = 80;
+				}
+			}
+			for(i=0;i<8;i++) {
+				unsigned char msk = code_msk[i];
+				if(pbuf[3]&msk) {
+					switch_signal_hold_time[i+24] = 80;
+				}
+			}
 			rc = 0;
 		}
 		break;
@@ -298,6 +328,8 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 			unsigned char i;
 			io_out[0] &= ~pbuf[0];
 			io_out[1] &= ~pbuf[1];
+			io_out[2] &= ~pbuf[2];
+			io_out[3] &= ~pbuf[3];
 			for(i=0;i<8;i++) {
 				unsigned char msk = code_msk[i];
 				if(pbuf[0]&msk) {
@@ -308,6 +340,18 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 				unsigned char msk = code_msk[i];
 				if(pbuf[1]&msk) {
 					switch_signal_hold_time[i+8] = 0;
+				}
+			}
+			for(i=0;i<8;i++) {
+				unsigned char msk = code_msk[i];
+				if(pbuf[2]&msk) {
+					switch_signal_hold_time[i+16] = 0;
+				}
+			}
+			for(i=0;i<8;i++) {
+				unsigned char msk = code_msk[i];
+				if(pbuf[3]&msk) {
+					switch_signal_hold_time[i+24] = 0;
 				}
 			}
 			rc = 0;
@@ -324,6 +368,14 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 				rc = 0;
 			} else if(index < 16) {
 				io_out[1] |=  code_msk[index-8];
+				switch_signal_hold_time[index] = 80;
+				rc = 0;
+			} else if(index < 24) {
+				io_out[2] |=  code_msk[index-16];
+				switch_signal_hold_time[index] = 80;
+				rc = 0;
+			} else if(index < 32) {
+				io_out[3] |=  code_msk[index-24];
 				switch_signal_hold_time[index] = 80;
 				rc = 0;
 			}
@@ -348,6 +400,20 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 					pbuf[1] = pbuf[0] = 0x00;
 				}
 				rc = 0;
+			} else if(index < 24) {
+				if(io_out[2]&code_msk[index-16]) {
+					pbuf[1] = pbuf[0] = 0xFF;
+				} else {
+					pbuf[1] = pbuf[0] = 0x00;
+				}
+				rc = 0;
+			} else if(index < 32) {
+				if(io_out[3]&code_msk[index-24]) {
+					pbuf[1] = pbuf[0] = 0xFF;
+				} else {
+					pbuf[1] = pbuf[0] = 0x00;
+				}
+				rc = 0;
 			}
 		}
 		break;
@@ -364,6 +430,14 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 				io_out[1] &= ~code_msk[index-8];
 				switch_signal_hold_time[index] = 0;
 				rc = 0;
+			} else if(index < 24) {
+				io_out[2] &= ~code_msk[index-16];
+				switch_signal_hold_time[index] = 0;
+				rc = 0;
+			} else if(index < 32) {
+				io_out[3] &= ~code_msk[index-24];
+				switch_signal_hold_time[index] = 0;
+				rc = 0;
 			}
 		}
 		break;
@@ -372,6 +446,8 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 			unsigned char i;
 			io_out[0] ^= pbuf[0];
 			io_out[1] ^= pbuf[1];
+			io_out[2] ^= pbuf[2];
+			io_out[3] ^= pbuf[3];
 			for(i=0;i<8;i++) {
 				unsigned char msk = code_msk[i];
 				if(pbuf[0]&msk) {
@@ -382,6 +458,18 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 				unsigned char msk = code_msk[i];
 				if(pbuf[1]&msk) {
 					switch_signal_hold_time[i+8] = 80;
+				}
+			}
+			for(i=0;i<8;i++) {
+				unsigned char msk = code_msk[i];
+				if(pbuf[2]&msk) {
+					switch_signal_hold_time[i+16] = 80;
+				}
+			}
+			for(i=0;i<8;i++) {
+				unsigned char msk = code_msk[i];
+				if(pbuf[3]&msk) {
+					switch_signal_hold_time[i+24] = 80;
 				}
 			}
 			rc = 0;
@@ -398,6 +486,14 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 				rc = 0;
 			} else if(index < 16) {
 				io_out[1] ^= code_msk[index - 8];
+				switch_signal_hold_time[index] = 80;
+				rc = 0;
+			} else if(index < 24) {
+				io_out[2] ^= code_msk[index - 16];
+				switch_signal_hold_time[index] = 80;
+				rc = 0;
+			} else if(index < 32) {
+				io_out[3] ^= code_msk[index - 24];
 				switch_signal_hold_time[index] = 80;
 				rc = 0;
 			}

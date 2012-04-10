@@ -30,7 +30,7 @@
 #endif
 
 #ifdef RELAY_PLATFORM_16CHOUT_EXT16CH
-#include "relay_control16_out_extend16ch.c";
+#include "relay_control16_out_extend16ch.c"
 #endif
 
 NUTDEVICE devRelayInputOutput = {
