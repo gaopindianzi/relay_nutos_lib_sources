@@ -33,6 +33,11 @@
 #include "relay_control16_out_extend16ch.c"
 #endif
 
+
+#ifdef RELAY_PLATFORM_16CHOUT_HOST_RESET
+#include "relay_control16out_host_reset.c"
+#endif
+
 NUTDEVICE devRelayInputOutput = {
     0,                          /*!< Pointer to next device. */
     {'r', 'e', 'l', 'a', 'y', 'c', 't', 'l', 0,},      /*!< Unique device name. */

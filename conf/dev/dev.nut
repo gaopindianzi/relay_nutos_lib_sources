@@ -227,7 +227,7 @@
 -- First release
 --
 --
-relay_platform_names = {"RELAY_PLATFORM_16CHOUT", "RELAY_PLATFORM_16CHOUT_EXT16CH","RELAY_PLATFORM_8CHIN_8CHOUT", "RELAY_PLATFORM_4CHIN_4CHOUT","RELAY_PLATFORM_2CHIN_2CHOUT", "ETHERNET_TO_485_MIMIBOARD_V1"}
+relay_platform_names = {"RELAY_PLATFORM_16CHOUT", "RELAY_PLATFORM_16CHOUT_EXT16CH","RELAY_PLATFORM_8CHIN_8CHOUT", "RELAY_PLATFORM_4CHIN_4CHOUT","RELAY_PLATFORM_2CHIN_2CHOUT", "ETHERNET_TO_485_MIMIBOARD_V1", "RELAY_PLATFORM_16CHOUT_HOST_RESET"}
 nutdev =
 {
    --
@@ -241,11 +241,11 @@ nutdev =
         options =
         {
             {
-                macro = "RELAY_PLATFORM_16CHOUT",
-                provides = { "RELAY_PLATFORM_16CHOUT","HAVE_RS485_INTERFACE" },
-                brief = "16 channel out.",
+                macro = "RELAY_PLATFORM_16CHOUT_HOST_RESET",
+                provides = { "RELAY_PLATFORM_16CHOUT_HOST_RESET" },
+                brief = "16 ch ehternet host reset board.",
                 -- description = function() return GetLDScriptDescription(); end,
-                description = "16 channel out.",
+                description = "16 ch ehternet host reset board.",
                 flavor = "boolean",
                 type = "enumerated",
                 exclusivity = relay_platform_names,
@@ -262,6 +262,17 @@ nutdev =
                 exclusivity = relay_platform_names,
                 file = "include/cfg/platform_def.h"
             },
+            {
+                macro = "RELAY_PLATFORM_16CHOUT",
+                provides = { "RELAY_PLATFORM_16CHOUT","HAVE_RS485_INTERFACE" },
+                brief = "16 channel out.",
+                -- description = function() return GetLDScriptDescription(); end,
+                description = "16 channel out.",
+                flavor = "boolean",
+                type = "enumerated",
+                exclusivity = relay_platform_names,
+                file = "include/cfg/platform_def.h"
+            },            
             {
                 brief = "8 channel output,8 channel input",
                 description = "8 channel output,8 channel input",
