@@ -18,6 +18,7 @@ static const unsigned char code_msk[8] = {0x01,0x02,0x04,0x08,0x10,0x20,0x40,0x8
 
 unsigned char switch_signal_hold_time[32]    __attribute__ ((section (".noinit")));
 unsigned char io_out[32/8]                   __attribute__ ((section (".noinit")));
+HANDLE trig_event = 0;
 
 
 typedef struct _RelayDataBlock
