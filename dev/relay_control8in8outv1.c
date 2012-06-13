@@ -3,6 +3,7 @@
 #include <cfg/os.h>
 #include <sys/device.h>
 #include <sys/heap.h>
+#include <sys/event.h>
 #include <io.h>
 #include <string.h>
 #include <stdio.h>
@@ -18,7 +19,8 @@ static const unsigned char code_msk[8] = {0x01,0x02,0x04,0x08,0x10,0x20,0x40,0x8
 
 unsigned char switch_signal_hold_time[32]    __attribute__ ((section (".noinit")));
 unsigned char io_out[32/8]                   __attribute__ ((section (".noinit")));
-HANDLE trig_event = 0;
+
+static HANDLE trig_event;
 
 
 typedef struct _RelayDataBlock
@@ -123,13 +125,34 @@ uint8_t relay_PortIn(void)
 
 THREAD(relay_control_thread, arg)
 {
-	//unsigned char led = 0;
+	unsigned char count = 0;
+	unsigned char temp_io_out;
 	NutThreadSetPriority(99);
 	if(THISINFO)printf("Start relay_control_thread\r\n");
+	temp_io_out = io_out[0];
 	for(;;) {
-		relay_lunch_out(io_out);
+		if(NutEventWait(&trig_event,50) == 0) {
+			count = 8;
+		}
+		if(++count >= 10) {
+			unsigned char i;
+			unsigned char out = io_out[0];
+			unsigned char temp = out ^ temp_io_out;  //找出与上一次不同的地方
+			count = 0;
+			for(i=0;i<8;i++) {
+				if(temp&code_msk[i]) {
+					//需要修改的位
+					if(out&code_msk[i]) {
+						temp_io_out |=  code_msk[i];
+					} else {
+						temp_io_out &= ~code_msk[i];
+					}
+					break; //找到一个就够了
+				}
+			}
+		}
+		relay_lunch_out(&temp_io_out);
 		relay_dcb.input[0] = relay_PortIn();
-		NutSleep(10);
 	}
 }
 
@@ -178,6 +201,8 @@ int relay_init(NUTDEVICE * dev)
 	}
 	relay_lunch_out(io_out);
 	relay_dcb.input[0] = relay_PortIn();
+
+	NutEventPost(&trig_event);
 
 	StartIoOutControlSrever();
 
@@ -235,6 +260,7 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 					switch_signal_hold_time[i] = 80;
 				}
 			}
+			NutEventPost(&trig_event);
 			rc = 0;
 		}
 		break;
@@ -283,6 +309,7 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 					switch_signal_hold_time[i+8] = 80;
 				}
 			}
+			NutEventPost(&trig_event);
 			rc = 0;
 		}
 		break;
@@ -303,6 +330,7 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 					switch_signal_hold_time[i+8] = 0;
 				}
 			}
+			NutEventPost(&trig_event);
 			rc = 0;
 		}
 		break;
@@ -320,6 +348,7 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 				switch_signal_hold_time[index] = 80;
 				rc = 0;
 			}
+			NutEventPost(&trig_event);
 		}
 		break;
 	case IO_GET_ONEBIT:
@@ -342,6 +371,7 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 				}
 				rc = 0;
 			}
+			NutEventPost(&trig_event);
 		}
 		break;
 	case IO_CLR_ONEBIT:
@@ -358,6 +388,7 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 				switch_signal_hold_time[index] = 0;
 				rc = 0;
 			}
+			NutEventPost(&trig_event);
 		}
 		break;
 	case IO_SIG_BITMAP:
@@ -377,6 +408,7 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 					switch_signal_hold_time[i+8] = 80;
 				}
 			}
+			NutEventPost(&trig_event);
 			rc = 0;
 		}
 		break;
@@ -394,6 +426,7 @@ int relay_ioctl(NUTDEVICE *dev, int req, void *conf)
 				switch_signal_hold_time[index] = 80;
 				rc = 0;
 			}
+			NutEventPost(&trig_event);
 		}
 		break;
 	case IO_SET_DELAY_ENABLE:
